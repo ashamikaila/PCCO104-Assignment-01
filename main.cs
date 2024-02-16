@@ -1,11 +1,7 @@
 using System;
 
-namespace BankNote
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+    class Program{
+        static void Main(string[] args){
             Console.WriteLine("Enter amount of money (0.01, 0.05, 0.25, 1, 5, 10, 20, 50, 100, 200, 500, 1000): ");
             string DenominationEntered = Console.ReadLine();
 
@@ -52,5 +48,4 @@ namespace BankNote
             else
                 return null;
         }
-    }
 }
