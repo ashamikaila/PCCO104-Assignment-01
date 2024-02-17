@@ -46,6 +46,6 @@ using System;
             else if (amount == 1000m)
                 return "Jose Abad Santos, Josefa Escoda, & Vicente Lim";
             else
-                return null;
+                return "Invalid Denomination";
         }
 }
